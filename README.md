@@ -1,3 +1,5 @@
+[![Watch the trailer](https://img.youtube.com/vi/QVPEZzORz4w/maxresdefault.jpg)](https://youtu.be/QVPEZzORz4w)
+
 # PiXL-Public
 This is the Public PiXL Repo of our progress
 
