@@ -1,10 +1,9 @@
 [![Watch the trailer](https://img.youtube.com/vi/QVPEZzORz4w/maxresdefault.jpg)](https://youtu.be/QVPEZzORz4w)
 
 # PiXL-Public
-This is the Public PiXL Repo of our progress
+PiXL is an evoloving RPG on the Tezos blockchain by Lex & Darren (skode)
 
-# TLDR;
-PiXL is an evoloving RPG on the Tezos blockchain. 
+This is the Public PiXL Repo of our progress. 
 
 # Main Concepts
 PiXL is an RPG (Role Playing Game) that is designed to evolve and constantly change. There are 5 main ideas that are core to project:
@@ -32,12 +31,23 @@ The Following Items can be minted in PiXL:
 2. **Item NFT** - Each Item in the game is awarded by completing a quest or purchased from the baker (shop) with PiXLtez. If an item is taken to the baker, it will show up in the player's wallet. Items earned through completeing Quests are very rare and are associated with the Quest's featured character. Other Items are less rare but still need to be purchased with PiXLtez - which is earned through playing the game and learning blockchain. Each Item improves your player in unique ways.
 3. **PiXLtez** - PiXLtez is a fungible FA2 token that can be traded and swapped on mainnet (IRL). It is the currency that PiXL uses to teach DeFi in the game and functions as a much more affordable version of tez - so players are able to understand larger-scale DeFi concepts like hosting node and voting. PiXLtez will hold some value and are live on mainnet. Players can keep them in game to buy items or stake for rewards, or mint them to their IRL Tezos wallet.
 
+# Self-Sovereign Identity Wizard
+Any player on a Quest in the game can visit the Self-Sovereign Identity Wizard and share that quest with other players (Wallets) for 24 hours. This all happens off-chain in our internal databse so there are no gas fees and it's sealess. All players on the Quest have the ability to complete it and earn the Quest Rewards. No matter what, the original player retains the Quest in inventory and can mint it as an Quest NFT. 
+
 # Tools Used
 We Used the following tools to make this project come together.
 
 https://github.com/tzConnectBerlin/peppermint
 
 https://github.com/ecadlabs/taquito
+
+# Contributors
+This project would not be what it is without the following contributions from the community:
+Rafael - Pixel Art
+Andrew - Pixel Art
+Dani J - On-Chain Support
+[Tacode](https://tacode.dev/courses/dev-starter/) - For the decentralized learning
+
 
 
 
