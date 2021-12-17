@@ -7,16 +7,22 @@ PiXL is an evoloving RPG on the Tezos blockchain.
 # Main Concepts
 PiXL is an RPG (Role Playing Game) that is designed to evolve and constantly change. There are 5 main ideas that are core to project:
 1. **PiXL is Play-to-Earn** - Players are be able to take items they win in the game on markets such as objkt.com
-2. **PiXL teaches DeFi & Tezos Tech** - The game simulates a Tezos ecosystem usingPiXL tez (our own token). PiXLtez is used in-game to sign transactions, create nodes and earn block rewards.
+2. **PiXL teaches DeFi & Tezos Tech** - The game simulates a Tezos ecosystem using PiXLtez (our own token). PiXLtez is used in-game to sign transactions, create nodes and earn block rewards. All concepts like voting and liquid-proof-of-stake are exemplified by the user being able to earn 8,000 PiXLtez and run their own node - which will make them more powerful in the game. 
 3. **PiXL is frictionless** - PiXL is on mainnet and uses an entry token to give players access. The entry token only needs to be in the user's wallet and the wallet synced. This is a read-olny call so there are no gas fees.
 4. **PiXL is for the evnironment** - All elements of PiXL are made to have a minimal impact on the evironment. The Quests, enemies and conecpts in the game emphasize the reality of the environmental impact of Proof-of-Work NFTs. (i.e. monsters in the game are dirty NFTs)
 5. **PiXL is about collaboration** - As a love letter to the Tezos community, PiXL will feature colaborations with atrists in the community. It also emphasizes the concepts of Self-Sovereign Identity as players are able to quests with other players while maintaining ownership of the Quest NFT (that has rarity).
 
 # How it's Made
-PiXL is made using Unity WebGL Export, Taquito on the frontend using Typescript, MongoDB on the backend. It runs on node.js
+PiXL is made using [Unity](https://unity.com/) WebGL Export, 
+
+[Taquito](https://github.com/ecadlabs/taquito) on the frontend using Typescript, 
+
+[MongoDB](https://www.mongodb.com/) on the backend. It runs on [node.js](https://nodejs.org/en/)
+
+We run [Peppermint](https://github.com/tzConnectBerlin/peppermint) as a server to do the on-chain transactions 
 
 # What Happens On-Chain
-To create a frictionless UX for the user (player) - they are never required to sign a transaction or pay any gas. Initially, the user signs in and their wallet is checked for an entry coin. If they own an entry coin then they can play the game. In the game - players earn Quests, Items and PiXLtez as they play. These are taken to the baker in the game at which point they can be minted to the user's wallet. The minted NFTs are then air-dropped to the user's wallet using https://github.com/tzConnectBerlin/peppermint. This way the user never pays gas for the transaction. The NFTs are available in the user's wallet as NFTs in an objkt.com collection. The user can then sell the NFTs using objkt.com marketplace or use them in game.
+To create a frictionless UX for the user (player) - they are never required to sign a transaction or pay any gas. Initially, the user signs in and their wallet is checked for an entry coin. If they own an entry coin then they can play the game. In the game - players earn Quests, Items and PiXLtez as they play. These are taken to the baker in the game at which point they can be minted to the user's wallet. The minted NFTs are then air-dropped to the user's wallet using [Peppermint](https://github.com/tzConnectBerlin/peppermint) . This way the user (player) never pays gas for the transaction. The NFTs are available in the user's wallet as NFTs in an objkt.com collection. The user can then sell the NFTs using objkt.com marketplace or use them in game.
 
 # What Can Be Minted
 The Following Items can be minted in PiXL:
