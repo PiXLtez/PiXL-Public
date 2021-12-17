@@ -17,7 +17,9 @@ PiXL is made using Unity WebGL Export, Taquito on the frontend using Typescript,
 
 # Tools Used
 We Used the following tools to make this project come together.
+
 https://github.com/tzConnectBerlin/peppermint
+
 https://github.com/ecadlabs/taquito
 
 
