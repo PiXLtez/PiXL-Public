@@ -45,6 +45,7 @@ https://github.com/ecadlabs/taquito
 This project would not be what it is without the following contributions from the community:
 Rafael - Pixel Art
 Andrew - Pixel Art
+Mr. B - Rap & Music
 Dani J - On-Chain Support
 [Tacode](https://tacode.dev/courses/dev-starter/) - For the decentralized learning
 
