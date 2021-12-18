@@ -23,12 +23,15 @@ PiXL is made using [Unity](https://unity.com/) WebGL Export,
 We run a stripped down [Peppermint](https://github.com/tzConnectBerlin/peppermint) as a server to do the on-chain transactions 
 
 # Innovative Business Model
-PiXL is the first use of an innovative business model that focuses on a frictionless experience for the user. To play PiXL, you need to buy an [Entry Coin NFT](https://objkt.com/asset/KT1SGdop74rGobKAETcBPnz9yQkH38hZnpBh/1) proceeds from the sales fund the project. The game checks the player's wallet for an Entry Coin via a read-only request (using taquito, beacon sdk and tzip12) - this does not cost gas. The user is able to play, and all items collected are sent to the user's wallet via batch script (taquito & peppermint). This business model creates the smoothest onboarding ever, as a new user only has to get a Tezos compatible wallet. They don't even need to have any tez. The Entry Coin can be sent to their wallet and all play-to-earn rewards do not cost them any gas.
+PiXL is the first use of an innovative business model that focuses on a frictionless experience for the user. To play PiXL, you need to buy an [Entry Coin NFT](https://objkt.com/asset/KT1SGdop74rGobKAETcBPnz9yQkH38hZnpBh/1) proceeds from the sales fund the project. The game checks the player's wallet for an Entry Coin via a read-only request (using taquito, beacon sdk and tzip12) - this does not cost gas. The user is able to play, and all items collected are sent to the user's wallet via batch script (using taquito & peppermint).
+
+This business model creates the smoothest onboarding ever, as a new user only has to get a Tezos compatible wallet. They don't even need to have any tez. The Entry Coin can be sent to their wallet and all play-to-earn rewards do not cost them any gas.
 
 [![Entry Coin](https://cloudflare-ipfs.com/ipfs/QmeZzZidhj8ZsuZKMmdutKDebQKyacHM46HuFhWs7bppx4/image.gif)](https://objkt.com/asset/KT1SGdop74rGobKAETcBPnz9yQkH38hZnpBh/1)
 
 # What Happens On-Chain
-To create a frictionless UX for the user (player) - they are never required to sign a transaction or pay any gas. Initially, the user signs in and their wallet is checked for an entry coin. If they own an entry coin then they can play the game. In the game - players earn Quests, Items and PiXLtez as they play. These are taken to the baker in the game at which point they can be minted to the user's wallet. The minted NFTs are then air-dropped to the user's wallet using [Peppermint](https://github.com/tzConnectBerlin/peppermint).  This way the user (player) never pays gas for the transaction. The NFTs are available in the user's wallet as NFTs in an [OBJKT](https://objkt.com) collection. The user can then sell the NFTs using objkt.com marketplace or use them in game.
+To create a frictionless UX for the user (player) - they are never required to sign a transaction or pay any gas. Initially, the user signs in and their wallet is checked for an entry coin. If they own an entry coin then they can play the game. In the game - players earn Quests, Items and PiXLtez as they play. These are taken to the baker in the game at which point they can be minted to the user's wallet. The minted NFTs are then air-dropped to the user's wallet using [Peppermint](https://github.com/tzConnectBerlin/peppermint).  
+This way the user (player) never pays gas for the transaction. The NFTs are available in the user's wallet as NFTs in an [OBJKT](https://objkt.com) collection. The user can then sell the NFTs using objkt.com marketplace or use them in game.
 
 # What Can Be Minted
 The following Items can be minted in PiXL:
@@ -37,10 +40,14 @@ The following Items can be minted in PiXL:
 3. **PiXLtez** - PiXLtez is a fungible FA2 token that can be traded and swapped on mainnet (IRL). It is the currency that PiXL uses to teach DeFi in the game and functions as a much more affordable version of tez - so players are able to understand larger-scale DeFi concepts like running a node and voting. PiXLtez will hold some value and are live on mainnet. Players can keep them in game to buy items or stake for rewards - or mint them to their IRL Tezos wallet.
 
 # Self-Sovereign Identity Wizard
-Any player on a Quest in the game can visit the Self-Sovereign Identity Wizard and share that quest with other players (Wallets) for 24 hours. This all happens off-chain in our internal database so there are no gas fees and it's seamless. All players on the Quest have the ability to complete it and earn the Quest Rewards. No matter what, the original player retains the Quest in inventory and can mint it as a Quest NFT. 
+Any player on a Quest in the game can visit the Self-Sovereign Identity Wizard and share that quest with other players (Wallets) for 24 hours. This all happens off-chain in our internal database so there are no gas fees and it's seamless. All players on the Quest have the ability to complete it and earn the Quest Rewards. 
+
+No matter what, the original player retains the Quest in inventory and can mint it as a Quest NFT. 
 
 # DeFi Concepts
-PiXL introduces the player to the concepts of Decentralized Finance and Liquid-Proof-of-Stake. By completing quests and battling monsters (Dirty NFTs) the player earns PiXLtez - which are also a token on the main-net and have some value. The player is able to use the PiXLtez in game to save up to a roll (8,000 PiXLtez) and create a node. A node will give their character upgrades and make them more powerful. The game also teaches security best practices with Quests involving seed phrases, cold storage and hardware wallets. 
+PiXL introduces the player to the concepts of Decentralized Finance and Liquid-Proof-of-Stake. By completing quests and battling monsters (Dirty NFTs) the player earns PiXLtez - which are also a token on the main-net and have some value. The player is able to use the PiXLtez in game to save up to a roll (8,000 PiXLtez) and create a node. A node will give their character upgrades and make them more powerful. 
+
+The game also teaches security best practices with Quests involving seed phrases, cold storage and hardware wallets. 
 
 # Tools Used
 We used the following tools to make this project come together.
