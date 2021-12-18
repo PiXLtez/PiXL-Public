@@ -50,12 +50,27 @@ PiXL introduces the player to the concepts of Decentralized Finance and Liquid-P
 
 The game also teaches security best practices with Quests involving seed phrases, cold storage and hardware wallets. 
 
+# Security
+Since PiXL is on main-net and is play-to-earn, it's very important to maintain fairness and preserve value in the Item NFTs and PiXLtez tokens. 
+Unity will track progress of the game as the user plays, this progress will be written to the server with timestamps. This will elimate bots and malicious actors becasue of the time it takes to progress in-game (i.e. to complete quest).
+
+We apply logic to the database as we query it to confirm normal usage. Abnormal useage will add the suspicious wallet to a blacklist in our internal database.
+Before transfering tokens to the user we check their wallet against the blacklist to prevent bots and malicious actors from receiving Item NFTs or PiXLtez.
+
+As PiXLtez is always evolving, we'll update the game and the artchitecture to counter any exploits we have not forseen.
+
+PiXL is also a play-to-earn-to-learn game where concepts in personal security are covered. The players learn about keeping their passphrase safe and concepts such as cold storage. They will also learn about vulnarabilities and exploits as the game will cover happenings in the Tezos ecosystem. If a exploit becomes public we'll incorporate it into the game to let users learn by doing. 
+
 # Tools Used
 We used the following tools to make this project come together.
 
 https://github.com/tzConnectBerlin/peppermint
 
 https://github.com/ecadlabs/taquito
+
+# Backlog
+We plan to release PiXL to the community in the coming weeks. There are still a few things that need to be done:
+1.
 
 # Contributors
 This project would not be what it is without the following contributions from the community:
