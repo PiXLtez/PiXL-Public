@@ -20,7 +20,7 @@ PiXL is made using [Unity](https://unity.com/) WebGL Export,
 
 [MongoDB](https://www.mongodb.com/) on the backend. It runs on [node.js](https://nodejs.org/en/)
 
-We run [Peppermint](https://github.com/tzConnectBerlin/peppermint) as a server to do the on-chain transactions 
+We run a stripped down [Peppermint](https://github.com/tzConnectBerlin/peppermint) as a server to do the on-chain transactions 
 
 # What Happens On-Chain
 To create a frictionless UX for the user (player) - they are never required to sign a transaction or pay any gas. Initially, the user signs in and their wallet is checked for an entry coin. If they own an entry coin then they can play the game. In the game - players earn Quests, Items and PiXLtez as they play. These are taken to the baker in the game at which point they can be minted to the user's wallet. The minted NFTs are then air-dropped to the user's wallet using [Peppermint](https://github.com/tzConnectBerlin/peppermint) . This way the user (player) never pays gas for the transaction. The NFTs are available in the user's wallet as NFTs in an [OBJKT](https://objkt.com) collection. The user can then sell the NFTs using objkt.com marketplace or use them in game.
@@ -33,6 +33,9 @@ The Following Items can be minted in PiXL:
 
 # Self-Sovereign Identity Wizard
 Any player on a Quest in the game can visit the Self-Sovereign Identity Wizard and share that quest with other players (Wallets) for 24 hours. This all happens off-chain in our internal databse so there are no gas fees and it's sealess. All players on the Quest have the ability to complete it and earn the Quest Rewards. No matter what, the original player retains the Quest in inventory and can mint it as an Quest NFT. 
+
+# DeFi Concepts
+PiXL introduces player to the concepts of Decentralized Finance and Liquid-Proof-of-Stake. By completing quests and battling mosnters (Dirty NFTs) the player earns PiXLtez - which are also a token on the main-net and have some value. The player is able to use the PiXLtez in game to save up to a roll (8,000 PiXLtez) and create a node. A node will give their character upgrades and make them more powerful. The game also teaches security best practices with Quests involving seed phrases, cold storage and hardware wallets. 
 
 # Tools Used
 We Used the following tools to make this project come together.
@@ -47,7 +50,7 @@ Rafael - Pixel Art
 Andrew - Pixel Art
 Mr. B - Rap & Music
 Dani J - On-Chain Support
-[Tacode](https://tacode.dev/courses/dev-starter/) - For the decentralized learning
+[Tacode](https://tacode.dev/courses/dev-starter/) - For the excellent decentralized learning
 
 
 
