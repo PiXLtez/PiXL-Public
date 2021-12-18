@@ -24,6 +24,7 @@ We run a stripped down [Peppermint](https://github.com/tzConnectBerlin/peppermin
 
 # Innovative Business Model
 PiXL is the first use of an innovative business model that focuses on a frictionless expereince for the user. To play PiXL, you need to buy an [Entry Coin NFT](https://objkt.com/asset/KT1SGdop74rGobKAETcBPnz9yQkH38hZnpBh/1) proceeds from the sales fund the project. The game checks the player's wallet for an Entry Coin via a read-only request (using taquito, beacon sdk and tzip12) - this does not cost gas. The user is able to play, and all items collected are sent to the the user's wallet via batch script (taquito & peppermint). This business model creates the smoothest onboarding ever, as a new user only has to get a Tezos compatible wallet. They don't even need to have any tez. The Entry Coin can be sent to their wallet and all play-to-earn rewards do not cost them any gas.
+
 ![Entry Coin](https://cloudflare-ipfs.com/ipfs/QmeZzZidhj8ZsuZKMmdutKDebQKyacHM46HuFhWs7bppx4/image.gif)
 
 # What Happens On-Chain
