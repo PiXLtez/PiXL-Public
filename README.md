@@ -9,8 +9,8 @@ This is the Public PiXL Repo of our progress.
 PiXL is an RPG (Role Playing Game) that is designed to evolve and constantly change. There are 5 main ideas that are core to project:
 1. **PiXL is Play-to-Earn** - Players are be able to take items they win in the game and sell/trade them on markets such as [OBJKT](https://objkt.com)
 2. **PiXL teaches DeFi & Tezos Tech** - The game simulates a Tezos ecosystem using [PiXLtez](#what-can-be-minted) (our own token). PiXLtez is used in-game to sign transactions, create nodes and earn block rewards. All concepts like voting and liquid-proof-of-stake are exemplified by the user being able to earn 8,000 PiXLtez and run their own node - which will make them more powerful in the game. 
-3. **PiXL is frictionless** - PiXL is on mainnet and uses an entry token to give players access. The entry token only needs to be in the user's wallet and the wallet synced. This is a read-olny call so there are no gas fees.
-4. **PiXL is for the environment** - All elements of PiXL are made to have a minimal impact on the evironment. The Quests, enemies and concepts in the game emphasize the reality of the environmental impact of Proof-of-Work NFTs. (i.e. monsters in the game are dirty NFTs)
+3. **PiXL is frictionless** - PiXL is on mainnet and uses an entry token to give players access. The entry token only needs to be in the user's wallet and the wallet synced. This is a read-only call so there are no gas fees.
+4. **PiXL is for the environment** - All elements of PiXL are made to have a minimal impact on the environment. The Quests, enemies and concepts in the game emphasize the reality of the environmental impact of Proof-of-Work NFTs. (i.e. monsters in the game are dirty NFTs)
 5. **PiXL is about collaboration** - As a love letter to the Tezos community, PiXL will feature collaborations with artists in the community. It also emphasizes the concepts of Self-Sovereign Identity as players are able to share their quests with other players while maintaining ownership of the [Quest NFT](#what-can-be-minted) (that has rarity).
 
 # How it's Made
