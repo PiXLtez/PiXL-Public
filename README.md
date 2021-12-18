@@ -70,7 +70,10 @@ https://github.com/ecadlabs/taquito
 
 # Backlog
 We plan to release PiXL to the community in the coming weeks. There are still a few things that need to be done:
-1.
+1. Create reward items for players.
+2. Continue working on the backend to add more feature and security as well as exploring better ways to utilize smart contracts for our needs.
+3. Continue to add new features and Ui improvments to the frontend application ( Improve card designs animations and interactions with the backend)
+4. With funding we would expand our team to fulfill the ambition of the project
 
 # Contributors
 This project would not be what it is without the following contributions from the community:
