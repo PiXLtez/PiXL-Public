@@ -1,7 +1,7 @@
 [![Watch the trailer](https://img.youtube.com/vi/QVPEZzORz4w/maxresdefault.jpg)](https://youtu.be/QVPEZzORz4w)
 
 # PiXL-Public
-PiXL is an evoloving RPG on the Tezos blockchain by Lex & Darren (skode)
+PiXL is an evoloving RPG on the Tezos blockchain by Lex & Darren "Skode"
 
 This is the Public PiXL Repo of our progress. 
 
@@ -22,7 +22,7 @@ PiXL is made using [Unity](https://unity.com/) WebGL Export,
 
 We run a stripped down [Peppermint](https://github.com/tzConnectBerlin/peppermint) as a server to do the on-chain transactions 
 
-#Innovative Business Model
+# Innovative Business Model
 PiXL is the first use of an innovative business model that focuses on a frictionless expereince for the user. To play PiXL, you need to buy an [Entry Coin NFT](https://objkt.com/asset/KT1SGdop74rGobKAETcBPnz9yQkH38hZnpBh/1) proceeds from the sales fund the project. The game checks the player's wallet for an Entry Coin via a read-only request (using taquito, beacon sdk and tzip12) - this does not cost gas. The user is able to play, and all items collected are sent to the the user's wallet via batch script (taquito & peppermint). This business model creates the smoothest onboarding ever, as a new user only has to get a Tezos compatible wallet. They don't even need to have any tez. The Entry Coin can be sent to their wallet and all play-to-earn rewards do not cost them any gas.  
 
 # What Happens On-Chain
