@@ -31,6 +31,7 @@ This business model creates the smoothest onboarding ever, as a new user only ha
 
 # What Happens On-Chain
 To create a frictionless UX for the user (player) - they are never required to sign a transaction or pay any gas. Initially, the user signs in and their wallet is checked for an entry coin. If they own an entry coin then they can play the game. In the game - players earn Quests, Items and PiXLtez as they play. These are taken to the baker in the game at which point they can be minted to the user's wallet. The minted NFTs are then air-dropped to the user's wallet using [Peppermint](https://github.com/tzConnectBerlin/peppermint).  
+
 This way the user (player) never pays gas for the transaction. The NFTs are available in the user's wallet as NFTs in an [OBJKT](https://objkt.com) collection. The user can then sell the NFTs using objkt.com marketplace or use them in game.
 
 # What Can Be Minted
