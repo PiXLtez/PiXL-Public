@@ -61,6 +61,9 @@ As PiXLtez is always evolving, we'll update the game and the artchitecture to co
 
 PiXL is also a play-to-earn-to-learn game where concepts in personal security are covered. The players learn about keeping their passphrase safe and concepts such as cold storage. They will also learn about vulnarabilities and exploits as the game will cover happenings in the Tezos ecosystem. If a exploit becomes public we'll incorporate it into the game to let users learn by doing. 
 
+# Marketing
+Every project needs great marketing! Shilling NFTs to the community does not contribute meaningfully to the community - this is not an acceptable marketing strategy. 
+
 # Tools Used
 We used the following tools to make this project come together.
 
