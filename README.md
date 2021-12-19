@@ -73,6 +73,16 @@ https://github.com/tzConnectBerlin/peppermint
 
 https://github.com/ecadlabs/taquito
 
+# Contract Addresses
+
+PiXL Entry Coin Objkt: [KT1SGdop74rGobKAETcBPnz9yQkH38hZnpBh](https://objkt.com/asset/KT1SGdop74rGobKAETcBPnz9yQkH38hZnpBh/1) Token ID: 1
+
+Hacker Cards (for development)
+
+KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton
+
+Token ID: 578813, 578810, 578806, 578802
+
 # Backlog
 We plan to release PiXL to the community in the coming weeks. There are still a few things that need to be done:
 - [ ] Mint this week's Items on the Mainnet
