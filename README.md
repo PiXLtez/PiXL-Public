@@ -46,7 +46,7 @@ Any player on a Quest in the game can visit the Self-Sovereign Identity Wizard a
 No matter what, the original player retains the Quest in inventory and can mint it as a Quest NFT. 
 
 # DeFi Concepts
-PiXL introduces the player to the concepts of Decentralized Finance and Liquid-Proof-of-Stake. By completing quests and battling monsters (Dirty NFTs) the player earns PiXLtez - which are also a token on the main-net and have some value. The player is able to use the PiXLtez in game to save up to a roll (8,000 PiXLtez) and create a node. A node will give their character upgrades and make them more powerful. 
+PiXL introduces the player to the concepts of Decentralized Finance and Liquid-Proof-of-Stake. By completing quests and battling monsters (Dirty NFTs) the player earns PiXLtez - which are also a token on the main-net and have some value. The player is able to use the PiXLtez in game to save up to a roll (8,000 PiXLtez) and create a node. A node will give their character upgrades and make them more powerful. Please see our [PiXL Economy Document](https://docs.google.com/drawings/d/193ndvulMNTPiJbcsJm8LiBqM69fZBDAnH-WDT8gdOaI/edit?usp=sharing) for details. 
 
 The game also teaches security best practices with Quests involving seed phrases, cold storage and hardware wallets. 
 
@@ -62,7 +62,9 @@ As PiXLtez is always evolving, we'll update the game and the artchitecture to co
 PiXL is also a play-to-earn-to-learn game where concepts in personal security are covered. The players learn about keeping their passphrase safe and concepts such as cold storage. They will also learn about vulnarabilities and exploits as the game will cover happenings in the Tezos ecosystem. If a exploit becomes public we'll incorporate it into the game to let users learn by doing. 
 
 # Marketing
-Every project needs great marketing! Shilling NFTs to the community does not contribute meaningfully to the community - this is not an acceptable marketing strategy. 
+Every project needs great marketing! Shilling NFTs to the community does not contribute meaningfully to a positive community experience - this is not an acceptable marketing strategy for us. Nor is any market manipulation like sweeping our own floor.
+
+Instead - we focus marketing on collaboration! Every Tezos artist with which we collaborate will be the key to our popularity. By inlcuding the artist in the game with their own customized quest, we'll have fans of the artist running to play PiXL. As each artist has a limited quantity of Quest NFTs and Item NFTs - the rarity will drive early adopters to seek out an Entry Coin in order to complete the unique artist quest, while supplies last. 
 
 # Tools Used
 We used the following tools to make this project come together.
