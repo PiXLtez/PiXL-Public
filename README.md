@@ -106,7 +106,10 @@ Dani J - On-Chain Support
 
 [Tacode](https://tacode.dev/courses/dev-starter/) - For the excellent decentralized learning
 
+There are several private repos in development - please contact us for access to Staging.
+
 ![pixlcover](https://user-images.githubusercontent.com/2120817/158454444-25de7d05-7f0a-487f-b71d-dc6d586592fa.png)
+
 
 
 
