@@ -1,7 +1,8 @@
 ![PiXLBanner](https://user-images.githubusercontent.com/2120817/170186750-25b413a0-3a23-4ce0-997c-1f4878f81226.png)<!-- ![pixlcover](https://user-images.githubusercontent.com/2120817/158454444-25de7d05-7f0a-487f-b71d-dc6d586592fa.png) -->
 # PiXL-Public
 [![](https://img.shields.io/badge/license-MIT-brightgreen)](LICENSE)
-PiXL is an evolving RPG on the Tezos blockchain by Lex & Darren "Skode"
+
+PiXL is an evolving RPG on the Tezos blockchain by Lex Dreitser
 
 This is the Public PiXL Repo of our progress. 
 
